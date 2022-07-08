@@ -1,0 +1,83 @@
+body {
+    background: #7F00FF; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.no-space {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.bold {
+    font-weight: 600 !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.full-width {
+    width: 100%
+}
+
+.chapter {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    color: white;
+}
+
+.title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    background: #FDC830; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    font-weight: bold !important;
+}
+
+.card {
+    background: #f953c6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.pagination {
+    background: #FDC830; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li {
+    border: solid gray;
+    border-radius: 50px !important;
+    height: auto !important;
+    margin-bottom: 3px;
+}
+
+.navi {
+    padding: 2px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 20px !important;
+    color: white;
+}
+
+.active {
+    border-color: white;
+    background-color: #f953c6 !important;
+}
+
+.ptb-6 {
+    padding: 6px !important;
+}
+
+label {
+    float: right;
+}
